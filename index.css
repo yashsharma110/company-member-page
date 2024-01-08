@@ -1,0 +1,85 @@
+.wrapper {
+  margin: 20px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-name {
+  background-color: rgba(211, 39, 188, 0.8);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.company-name h1 {
+  color: white;
+  padding: 0 2rem;
+}
+
+.about-company {
+  width: 80%;
+  text-align: center;
+  font-size: large;
+}
+
+.dashed-line {
+  width: 80%;
+  border-top: 2px dashed rgba(611, 39, 188, 0.8);
+}
+
+.leadership-team h2 {
+  font-size: xx-large;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 3rem;
+}
+
+.team-heading {
+  color: white;
+  overflow-y: hidden;
+}
+
+.team-heading h3 {
+  background-color: rgba(211, 39, 188, 0.8);
+  padding: 0.1rem 2rem;
+  border-radius: 0.4em;
+  font-size: xx-large;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.member img {
+  border-radius: 50%;
+  border: 3px solid grey;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.designation {
+  color: rgba(211, 39, 188, 1);
+  font-style: italic;
+  font-weight: bold;
+}
